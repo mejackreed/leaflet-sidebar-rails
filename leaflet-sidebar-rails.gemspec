@@ -13,7 +13,8 @@ Gem::Specification.new do |s|
   s.description = "A responsive sidebar for leaflet maps"
   s.homepage    = 'https://github.com/mejackreed/leaflet-sidebar-rails'
 
-  s.files = Dir["{app,config,db,lib}/**/*", "LICENSE.txt", "LICENSE-leaflet-sidebar.txt", "Rakefile", "README.md"]
+  s.files = `git ls-files`.split("\n")
+  # s.files = Dir["{app,config,db,lib,vendor}/**/*", "LICENSE.txt", "LICENSE-leaflet-sidebar.txt", "Rakefile", "README.md"]
   s.require_paths = ["lib"]
 
 end
