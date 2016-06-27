@@ -16,5 +16,6 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   # s.files = Dir["{app,config,db,lib,vendor}/**/*", "LICENSE.txt", "LICENSE-leaflet-sidebar.txt", "Rakefile", "README.md"]
   s.require_paths = ["lib"]
+  s.add_development_dependency 'rake'
 
 end
